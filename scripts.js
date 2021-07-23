@@ -48,14 +48,14 @@ function pmt(/*rate_per_period, number_of_payments,present_value, future_value, 
     */
    monthlyAmount = ((rate_per_period * (future_value + (q * present_value))) / ((-1+q) * (1 + rate_per_period * (type))));
 
-        } else if(number_of_payments != 0.0){
+        } else {
             /*No interest rate, but number of payments exists*/
             /*monthlyFill.innerHTML = '$' + ((future_value + present_value) / number_of_payments).toPrecision();
         }*/
         monthlyAmount = ((future_value + present_value) / number_of_payments);
-        monthlyFill.textContent = formatter.format(monthlyAmount);
-        return monthlyAmount;
     }
+    monthlyFill.textContent = formatter.format(monthlyAmount);
+        return monthlyAmount;
 }
 
 let totalFill = document.getElementById('totalPayment');

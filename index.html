@@ -20,72 +20,73 @@
     </header>
     <main>
         <form action="index.html" method="get">
-        <section id="top"> 
+            <section class="top">
             <fieldset>
             <span class="container">
             <div class="left ">
-                <img class="icon" src= "https://unsplash.it/80/80" /> 
-                    <label for="down">How much is your down payment?</label>
+                <img class="icon" src= "https://unsplash.it/80/80" /> <br>
+                    <label for="down">How much is your down payment?</label><br>
                     <input type="number" id="down" name="down" required 
                     min="1000" step="500">
 
             </div>
             <div class="right">
-                <img class="icon" src= "https://unsplash.it/80/80" />
-                <label for="home"> What's the cost of your home?</label>
+                <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                <label for="home"> What's the cost of your home?</label><br>
                 <input type="number" id="home" name="home_cost" required 
                     min="1000" step="500">
             </div>
         </span>
             <div class="under">
-                <img class="icon" src= "https://unsplash.it/80/80" />
+                <img class="icon" src= "https://unsplash.it/80/80" /><br>
                 <br><button id='calcButton' type="button">Calculate!</button>
                 <p>This is how much you'll need to borrow</p>
                 <p id="needToBorrow">&nbsp;</p>
                 
                 <details>
-                     <img class="icon" src= "https://unsplash.it/80/80" />
+                     <img class="icon" src= "https://unsplash.it/80/80" /><br>
                      <p class="sub">Percent of total cost</p>
                      <p id="needToBorrowPercent">&nbsp;</p>
                 </details>
             </div>
         </fieldset>
-       </section>
-       <section>
+    </section>
+        <img class="divider" src="images/unnamed.png">
+        <section class="bottom">
            <fieldset>
         <span class="container">
            <div class="left">
-                <img class="icon" src= "https://unsplash.it/80/80"/>
-                <label for="period">What's the length of your repayment period (in years)?</label>
+                <img class="icon" src= "https://unsplash.it/80/80"/><br>
+                <label for="period">What's the length of your repayment period (in years)?</label><br>
                 <input type="number" id="period" name="loan_period"  required 
                     min="o" step="1" max="50">
           </div>
           <div class="right">
-            <img class="icon" src= "https://unsplash.it/80/80" />
+            <img class="icon" src= "https://unsplash.it/80/80" /><br>
             <label for="rate">Select your interest rate (%)</label><br>
             <input type="number" id="rate" name="interest_rate"  required 
                     min="o" step="0.1" max="20">
         </div>
     </span>
         <div class="under">
+            <img class="icon" src= "https://unsplash.it/80/80" /><br>
             <button id='calcButtonTwo' type="button">Calculate!</button>
-            <img class="icon" src= "https://unsplash.it/80/80" />
             <p>This will be your monthly payment</p>
             <p id="monthlyPayment">&nbsp;</p>
 
             <details>
                 <span class="container">
-                <img class="icon" src= "https://unsplash.it/80/80" />
+                <img class="icon" src= "https://unsplash.it/80/80" /><br>
                 <p class="sub">Total repayment amount</p>
                 <p id="totalPayment">&nbsp;</p>
-                <img class="icon" src= "https://unsplash.it/80/80" />
+                <img class="icon" src= "https://unsplash.it/80/80" /><br>
                 <p class="sub">Total interest paid</p>
                 <p id="totalIntPayment">&nbsp;</p>
                 </span>
             </details>
         </div>
     </fieldset>
-        </section>
+</section>
         </form>
     </main>
 </body>
