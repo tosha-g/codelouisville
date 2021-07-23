@@ -15,7 +15,7 @@
             <ul class="main-nav">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Learn More</a></li>
-                <li><a href="#">Your New Home</a></li>
+                <li><a href="newhome.html">Your New Home</a></li>
             </ul>
     </header>
     <main>
@@ -51,7 +51,7 @@
             </div>
         </fieldset>
     </section>
-        <img class="divider" src="images/unnamed.png">
+        <img id="divider" src="images/unnamed.png">
         <section class="bottom">
            <fieldset>
         <span class="container">
@@ -75,13 +75,17 @@
             <p id="monthlyPayment">&nbsp;</p>
 
             <details>
-                <span class="container">
+                <span class="container" id="bottomDetails">
+                    <span>
                 <img class="icon" src= "https://unsplash.it/80/80" /><br>
-                <p class="sub">Total repayment amount</p>
+                <p class="sub">Total repayment amount</p><br>
                 <p id="totalPayment">&nbsp;</p>
+            </span>
+            <span>
                 <img class="icon" src= "https://unsplash.it/80/80" /><br>
-                <p class="sub">Total interest paid</p>
+                <p class="sub">Total interest paid</p><br>
                 <p id="totalIntPayment">&nbsp;</p>
+            </span>
                 </span>
             </details>
         </div>

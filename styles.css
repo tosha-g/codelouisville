@@ -123,6 +123,10 @@ img :not(:first-child){
   fieldset{
     border: none;
   }
+
+  #bottomDetails{
+    justify-content: space-evenly;
+  }
   
 
   /*Media Queries*/
@@ -159,6 +163,12 @@ img :not(:first-child){
     margin: 0 0;
   }
 }
+
+#id{
+  width: 80vw;
+}
+
+
   
 @media screen and (min-width: 1024px){
   .container{
