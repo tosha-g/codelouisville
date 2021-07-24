@@ -13,8 +13,8 @@
     <header class="header">
         <img id="logo" src= "images/984px-How_to_Get_Away_with_Murder_logo.svg (1).png"/> 
             <ul class="main-nav">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Learn More</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="https://www.forbes.com/sites/trulia/2016/10/25/mortgage-101-breaking-down-the-basics/?sh=91211d641c7b">Learn More</a></li>
                 <li><a href="newhome.html">Your New Home</a></li>
             </ul>
     </header>
@@ -24,27 +24,27 @@
             <fieldset>
             <span class="container">
             <div class="left ">
-                <img class="icon" src= "https://unsplash.it/80/80" /> <br>
+                <img class="icon" src= "images/hand1.png" /> <br>
                     <label for="down">How much is your down payment?</label><br>
                     <input type="number" id="down" name="down" required 
                     min="1000" step="500">
 
             </div>
             <div class="right">
-                <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                <img class="icon" src= "images/home.png" /><br>
                 <label for="home"> What's the cost of your home?</label><br>
                 <input type="number" id="home" name="home_cost" required 
                     min="1000" step="500">
             </div>
         </span>
             <div class="under">
-                <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                <img class="icon" src= "images/signing.png" /><br>
                 <br><button id='calcButton' type="button">Calculate!</button>
                 <p>This is how much you'll need to borrow</p>
                 <p id="needToBorrow">&nbsp;</p>
                 
                 <details>
-                     <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                     <img class="icon" src= "images/discount.png" /><br>
                      <p class="sub">Percent of total cost</p>
                      <p id="needToBorrowPercent">&nbsp;</p>
                 </details>
@@ -56,20 +56,20 @@
            <fieldset>
         <span class="container">
            <div class="left">
-                <img class="icon" src= "https://unsplash.it/80/80"/><br>
+                <img class="icon" src= "images/calendar.png"/><br>
                 <label for="period">What's the length of your repayment period (in years)?</label><br>
                 <input type="number" id="period" name="loan_period"  required 
                     min="o" step="1" max="50">
           </div>
           <div class="right">
-            <img class="icon" src= "https://unsplash.it/80/80" /><br>
+            <img class="icon" src= "images/percentage.png" /><br>
             <label for="rate">Select your interest rate (%)</label><br>
             <input type="number" id="rate" name="interest_rate"  required 
                     min="o" step="0.1" max="20">
         </div>
     </span>
         <div class="under">
-            <img class="icon" src= "https://unsplash.it/80/80" /><br>
+            <img class="icon" src= "images/credit-card.png" /><br>
             <button id='calcButtonTwo' type="button">Calculate!</button>
             <p>This will be your monthly payment</p>
             <p id="monthlyPayment">&nbsp;</p>
@@ -77,12 +77,12 @@
             <details>
                 <span class="container" id="bottomDetails">
                     <span>
-                <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                <img class="icon" src= "images/money-bag.png" /><br>
                 <p class="sub">Total repayment amount</p><br>
                 <p id="totalPayment">&nbsp;</p>
             </span>
             <span>
-                <img class="icon" src= "https://unsplash.it/80/80" /><br>
+                <img class="icon" src= "images/money-bag.png" /><br>
                 <p class="sub">Total interest paid</p><br>
                 <p id="totalIntPayment">&nbsp;</p>
             </span>

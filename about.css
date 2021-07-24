@@ -1,0 +1,24 @@
+body{
+ color: darkslategray;
+ font-family: "Century Light", "Palatino", serif;
+  font-weight: bold;
+  text-shadow: 0 0 2px lightgoldenrodyellow;
+    padding: 15px;
+    margin: 5px;	
+    text-align: center;
+    background-color: cornsilk;
+}
+
+img{
+    max-width: 30%;
+    height: auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+#dad.resize{
+    max-height: 210px;
+}
