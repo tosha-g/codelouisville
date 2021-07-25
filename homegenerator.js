@@ -26,9 +26,17 @@ let homeImage = [
 
 function getRandomHomeImage() {
     let index = Math.floor(Math.random() * homeImage.length);
-    let img = document.createElement('img')
-    img.src = homeImage[index]
-    document.getElementById('newHome').appendChild(img);
+    let img = document.createElement('img');
+    img.src = homeImage[index];
+    img.style = "max-width: 100%;";
+    let newHome = document.getElementById('newHome');
+    removeChildren(newHome);
+    newHome.appendChild(img);
+}
+
+function removeChildren(element){
+    while(element.firstChild)
+    element.removeChild(element.firstChild);
 }
 
 /*

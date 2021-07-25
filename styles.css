@@ -119,6 +119,11 @@ main{
   #bottomDetails{
     justify-content: space-evenly;
   }
+
+  #divider {
+    max-width: 60%;
+    margin: auto;
+  }
   
 
   /*Media Queries*/

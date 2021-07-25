@@ -24,52 +24,52 @@
             <fieldset>
             <span class="container">
             <div class="left ">
-                <img class="icon" src= "images/hand1.png" /> <br>
+                <img class="icon" src= "images/hand1.png" alt="A hand and currency icon" /> <br>
                     <label for="down">How much is your down payment?</label><br>
                     <input type="number" id="down" name="down" required 
                     min="1000" step="500">
 
             </div>
             <div class="right">
-                <img class="icon" src= "images/home.png" /><br>
+                <img class="icon" src= "images/home.png" alt="A home icon" /><br>
                 <label for="home"> What's the cost of your home?</label><br>
                 <input type="number" id="home" name="home_cost" required 
                     min="1000" step="500">
             </div>
         </span>
             <div class="under">
-                <img class="icon" src= "images/signing.png" /><br>
+                <img class="icon" src= "images/signing.png" alt="A signed loan document icon" /><br>
                 <br><button id='calcButton' type="button">Calculate!</button>
                 <p>This is how much you'll need to borrow</p>
                 <p id="needToBorrow">&nbsp;</p>
                 
                 <details>
-                     <img class="icon" src= "images/discount.png" /><br>
+                     <img class="icon" src= "images/discount.png" alt="A percent symbol icon" /><br>
                      <p class="sub">Percent of total cost</p>
                      <p id="needToBorrowPercent">&nbsp;</p>
                 </details>
             </div>
         </fieldset>
     </section>
-        <img id="divider" src="images/unnamed.png">
+        <img id="divider" src="images/unnamed.png" alt="A calligraphed page break design">
         <section class="bottom">
            <fieldset>
         <span class="container">
            <div class="left">
-                <img class="icon" src= "images/calendar.png"/><br>
+                <img class="icon" src= "images/calendar.png" alt="A calendar icon"/><br>
                 <label for="period">What's the length of your repayment period (in years)?</label><br>
                 <input type="number" id="period" name="loan_period"  required 
                     min="o" step="1" max="50">
           </div>
           <div class="right">
-            <img class="icon" src= "images/percentage.png" /><br>
+            <img class="icon" src= "images/percentage.png" alt="A percent symbol icon" /><br>
             <label for="rate">Select your interest rate (%)</label><br>
             <input type="number" id="rate" name="interest_rate"  required 
                     min="o" step="0.1" max="20">
         </div>
     </span>
         <div class="under">
-            <img class="icon" src= "images/credit-card.png" /><br>
+            <img class="icon" src= "images/credit-card.png" alt="A credit card icon" /><br>
             <button id='calcButtonTwo' type="button">Calculate!</button>
             <p>This will be your monthly payment</p>
             <p id="monthlyPayment">&nbsp;</p>
@@ -77,12 +77,12 @@
             <details>
                 <span class="container" id="bottomDetails">
                     <span>
-                <img class="icon" src= "images/money-bag.png" /><br>
+                <img class="icon" src= "images/money-bag.png" alt="A money bag icon" /><br>
                 <p class="sub">Total repayment amount</p><br>
                 <p id="totalPayment">&nbsp;</p>
             </span>
             <span>
-                <img class="icon" src= "images/money-bag.png" /><br>
+                <img class="icon" src= "images/money-bag.png" alt="A money bag icon" /><br>
                 <p class="sub">Total interest paid</p><br>
                 <p id="totalIntPayment">&nbsp;</p>
             </span>
